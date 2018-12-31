@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+dash = "*"
+dash-html-components = "*"
+dash-core-components = "*"
+dash-table = "*"
+pandas = "*"
+
+[packages]
+
+[requires]
+python_version = "3.7"
