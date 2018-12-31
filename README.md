@@ -5,5 +5,5 @@
 - pipenv
 
 ## Run
-- `pipenv install`
-- `python app.py`
+- `pipenv install --dev`
+- `pipenv run python app.py`
