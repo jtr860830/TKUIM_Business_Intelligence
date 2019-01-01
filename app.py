@@ -65,6 +65,9 @@ app.layout = html.Div(children=[
             'textAlign': 'center'
         }
     ),
+    dcc.Markdown(
+        children='---'
+    ),
     html.H5(
         children='Which category has the highest share of (active) apps in the market ?',
         style={
@@ -89,6 +92,9 @@ app.layout = html.Div(children=[
             'textAlign': 'center'
         }
     ),
+    dcc.Markdown(
+        children='---'
+    ),
     html.H5(
         children='Apps rating',
         style={
@@ -111,6 +117,9 @@ app.layout = html.Div(children=[
         style={
             'textAlign': 'center'
         }
+    ),
+    dcc.Markdown(
+        children='---'
     ),
     html.H5(
         children='Best performing categories',
